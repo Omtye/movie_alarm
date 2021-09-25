@@ -1,0 +1,359 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:1:1-63:12
+INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:1:1-63:12
+INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:1:1-63:12
+INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:1:1-63:12
+MERGED from [:audioplayers] D:\Develop\flutter\WorkSapce\movie_alarm\build\audioplayers\intermediates\library_manifest\release\AndroidManifest.xml:2:1-9:12
+MERGED from [:video_player] D:\Develop\flutter\WorkSapce\movie_alarm\build\video_player\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:wakelock] D:\Develop\flutter\WorkSapce\movie_alarm\build\wakelock\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_audio_query] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_audio_query\intermediates\library_manifest\release\AndroidManifest.xml:2:1-10:12
+MERGED from [:flutter_plugin_android_lifecycle] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:android_alarm_manager_plus] D:\Develop\flutter\WorkSapce\movie_alarm\build\android_alarm_manager_plus\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:volume] D:\Develop\flutter\WorkSapce\movie_alarm\build\volume\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:system_shortcuts] D:\Develop\flutter\WorkSapce\movie_alarm\build\system_shortcuts\intermediates\library_manifest\release\AndroidManifest.xml:2:1-12:12
+MERGED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:2:1-29:12
+MERGED from [:path_provider] D:\Develop\flutter\WorkSapce\movie_alarm\build\path_provider\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] D:\Develop\flutter\WorkSapce\movie_alarm\build\shared_preferences\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\40ea5b8511b98cf2e6eb4e881b8d8ade\jetified-core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\08f2ee341dfd509e8a731dc84544484f\jetified-exoplayer-hls-2.14.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b4eb12f4d8335a7cd6419f34809457b5\jetified-exoplayer-dash-2.14.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\6ee92beb326129b2c2a57e107c1c56b0\jetified-exoplayer-smoothstreaming-2.14.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\386f14f5a3f7a4633f3356c50f39f4ff\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\a1923fe6ecb2f817d462c405c6974658\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\be560b40e4e8668f127bf4fa9934344e\webkit-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.3.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\a221c698c6d8862a0b0bd9ece98ee6ab\browser-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b22d65cac925bc94b3a89659e243f9dd\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\d04e39aab2f8470c3db7ec5fe5bf8289\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\df78228fe802d9168fb38191e779052c\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\c48ec40912ace98ef767a9ef481749db\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\ac3231e27eefa9b036d08b4b2876b3d5\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\435500faa4409c31aa132c20b76e771d\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b8495eb7f8b45966e26a11b57aaae2ca\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\fb03e5b619f1cc6f52433286a54b7eb0\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b502c4485c477091661a0abd8719f789\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\33cbaa35d26a09368a947c625d232cbc\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\3def4eff4da5f9aa8da2410e13ab1879\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b8f56c1b267cb3a8fa2f92fddf02af41\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\47e9c294764eaab7e0ede011dafcaf35\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\e5e0cd3c9e63a6b86c25da02d24ecefb\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\056c2c821cfd6ad701ca8072937c7235\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\e362f925a4fe9f1fb6067d4177189500\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\5e07e63eaf8d16076f7243adff1f9dc1\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b781330f13e915c5e33e9edfc19100b1\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\2c0aca75419af953f5b68024797c3334\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\871dbd97facfe1233c7889a9b1a9f796\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\0b307746bdd91f6183e622eb3134833d\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\aba40c873d0c6b66be1e3f0b79a854c7\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\c41f3c801cd03801cd2a1dcf320abb81\jetified-exoplayer-extractor-2.14.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b6c23148c1934165ee2b1876c799c11b\jetified-exoplayer-common-2.14.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\ca6a61d0e65624f35c5a49468c81fd10\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\a028e4130fe4b9df9c7aeab2abeb2c55\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\8de444c5e3399718efacccedb9730e3b\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\0b19828b326b56df03b22095c42db98c\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\99f37cf21011147dc49ab72be223531d\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\ef4d8d9d13157d751e1fa13f14ee6b28\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\98bf932e31da9287e8479802fedbf854\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\63eee6dae17f80a53a65e25cbfb6f20e\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\73dc86ab266ee1130b8de358823b2aff\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:1:1-63:12
+INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:1:1-63:12
+INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:1:1-63:12
+	package
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:2:11-44
+		INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:1:1-63:12
+		INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:1:1-63:12
+		INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:3:5-66
+	android:name
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:3:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:4:5-80
+	android:name
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:4:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:5:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [:flutter_audio_query] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_audio_query\intermediates\library_manifest\release\AndroidManifest.xml:7:5-80
+MERGED from [:flutter_audio_query] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_audio_query\intermediates\library_manifest\release\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:7:5-77
+	android:name
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:7:22-75
+application
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:8:5-62:19
+MERGED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:13:5-27:19
+MERGED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:13:5-27:19
+MERGED from [androidx.core:core:1.6.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b781330f13e915c5e33e9edfc19100b1\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b781330f13e915c5e33e9edfc19100b1\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\a028e4130fe4b9df9c7aeab2abeb2c55\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\a028e4130fe4b9df9c7aeab2abeb2c55\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:requestLegacyExternalStorage
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:11:13-56
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b781330f13e915c5e33e9edfc19100b1\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:9:13-40
+	android:icon
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:10:13-47
+activity#com.example.movie_alarm.MainActivity
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:12:9-41:20
+	android:launchMode
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:14:17-47
+	android:hardwareAccelerated
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:17:17-51
+	android:windowSoftInputMode
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:18:17-59
+	android:showOnLockScreen
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:19:17-48
+	android:configChanges
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:16:17-167
+	android:theme
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:15:17-51
+	android:name
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:13:17-45
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:24:13-27:15
+	android:resource
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:26:21-58
+	android:name
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:25:21-76
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:33:13-36:15
+	android:resource
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:35:21-67
+	android:name
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:34:21-85
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:38:17-68
+	android:name
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:39:17-76
+	android:name
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:39:27-74
+meta-data#flutterEmbedding
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:44:9-46:36
+	android:value
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:46:17-34
+	android:name
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:45:17-48
+service#dev.fluttercommunity.plus.androidalarmmanager.AlarmService
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:47:9-50:43
+	android:exported
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:50:17-41
+	android:permission
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:49:17-73
+	android:name
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:48:17-90
+receiver#dev.fluttercommunity.plus.androidalarmmanager.AlarmBroadcastReceiver
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:51:9-53:43
+	android:exported
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:53:17-41
+	android:name
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:52:17-100
+receiver#dev.fluttercommunity.plus.androidalarmmanager.RebootBroadcastReceiver
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:54:9-60:20
+	android:enabled
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:56:17-40
+	android:name
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:55:17-101
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:57:13-59:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:58:17-86
+	android:name
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml:58:25-76
+uses-sdk
+INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml
+MERGED from [:audioplayers] D:\Develop\flutter\WorkSapce\movie_alarm\build\audioplayers\intermediates\library_manifest\release\AndroidManifest.xml:7:5-44
+MERGED from [:audioplayers] D:\Develop\flutter\WorkSapce\movie_alarm\build\audioplayers\intermediates\library_manifest\release\AndroidManifest.xml:7:5-44
+MERGED from [:video_player] D:\Develop\flutter\WorkSapce\movie_alarm\build\video_player\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:video_player] D:\Develop\flutter\WorkSapce\movie_alarm\build\video_player\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:wakelock] D:\Develop\flutter\WorkSapce\movie_alarm\build\wakelock\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:wakelock] D:\Develop\flutter\WorkSapce\movie_alarm\build\wakelock\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_audio_query] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_audio_query\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_audio_query] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_audio_query\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:android_alarm_manager_plus] D:\Develop\flutter\WorkSapce\movie_alarm\build\android_alarm_manager_plus\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:android_alarm_manager_plus] D:\Develop\flutter\WorkSapce\movie_alarm\build\android_alarm_manager_plus\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:volume] D:\Develop\flutter\WorkSapce\movie_alarm\build\volume\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:volume] D:\Develop\flutter\WorkSapce\movie_alarm\build\volume\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:system_shortcuts] D:\Develop\flutter\WorkSapce\movie_alarm\build\system_shortcuts\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:system_shortcuts] D:\Develop\flutter\WorkSapce\movie_alarm\build\system_shortcuts\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] D:\Develop\flutter\WorkSapce\movie_alarm\build\path_provider\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] D:\Develop\flutter\WorkSapce\movie_alarm\build\path_provider\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] D:\Develop\flutter\WorkSapce\movie_alarm\build\shared_preferences\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] D:\Develop\flutter\WorkSapce\movie_alarm\build\shared_preferences\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\40ea5b8511b98cf2e6eb4e881b8d8ade\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\40ea5b8511b98cf2e6eb4e881b8d8ade\jetified-core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\08f2ee341dfd509e8a731dc84544484f\jetified-exoplayer-hls-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\08f2ee341dfd509e8a731dc84544484f\jetified-exoplayer-hls-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b4eb12f4d8335a7cd6419f34809457b5\jetified-exoplayer-dash-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b4eb12f4d8335a7cd6419f34809457b5\jetified-exoplayer-dash-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\6ee92beb326129b2c2a57e107c1c56b0\jetified-exoplayer-smoothstreaming-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\6ee92beb326129b2c2a57e107c1c56b0\jetified-exoplayer-smoothstreaming-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\386f14f5a3f7a4633f3356c50f39f4ff\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\386f14f5a3f7a4633f3356c50f39f4ff\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\a1923fe6ecb2f817d462c405c6974658\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\a1923fe6ecb2f817d462c405c6974658\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\be560b40e4e8668f127bf4fa9934344e\webkit-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\be560b40e4e8668f127bf4fa9934344e\webkit-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\a221c698c6d8862a0b0bd9ece98ee6ab\browser-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\a221c698c6d8862a0b0bd9ece98ee6ab\browser-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b22d65cac925bc94b3a89659e243f9dd\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b22d65cac925bc94b3a89659e243f9dd\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\d04e39aab2f8470c3db7ec5fe5bf8289\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\d04e39aab2f8470c3db7ec5fe5bf8289\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\df78228fe802d9168fb38191e779052c\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\df78228fe802d9168fb38191e779052c\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\c48ec40912ace98ef767a9ef481749db\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\c48ec40912ace98ef767a9ef481749db\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\ac3231e27eefa9b036d08b4b2876b3d5\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\ac3231e27eefa9b036d08b4b2876b3d5\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\435500faa4409c31aa132c20b76e771d\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\435500faa4409c31aa132c20b76e771d\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b8495eb7f8b45966e26a11b57aaae2ca\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b8495eb7f8b45966e26a11b57aaae2ca\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\fb03e5b619f1cc6f52433286a54b7eb0\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\fb03e5b619f1cc6f52433286a54b7eb0\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b502c4485c477091661a0abd8719f789\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b502c4485c477091661a0abd8719f789\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\33cbaa35d26a09368a947c625d232cbc\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\33cbaa35d26a09368a947c625d232cbc\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\3def4eff4da5f9aa8da2410e13ab1879\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\3def4eff4da5f9aa8da2410e13ab1879\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b8f56c1b267cb3a8fa2f92fddf02af41\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b8f56c1b267cb3a8fa2f92fddf02af41\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\47e9c294764eaab7e0ede011dafcaf35\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\47e9c294764eaab7e0ede011dafcaf35\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\e5e0cd3c9e63a6b86c25da02d24ecefb\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\e5e0cd3c9e63a6b86c25da02d24ecefb\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\056c2c821cfd6ad701ca8072937c7235\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\056c2c821cfd6ad701ca8072937c7235\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\e362f925a4fe9f1fb6067d4177189500\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\e362f925a4fe9f1fb6067d4177189500\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\5e07e63eaf8d16076f7243adff1f9dc1\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\5e07e63eaf8d16076f7243adff1f9dc1\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b781330f13e915c5e33e9edfc19100b1\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b781330f13e915c5e33e9edfc19100b1\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\2c0aca75419af953f5b68024797c3334\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\2c0aca75419af953f5b68024797c3334\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\871dbd97facfe1233c7889a9b1a9f796\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\871dbd97facfe1233c7889a9b1a9f796\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\0b307746bdd91f6183e622eb3134833d\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\0b307746bdd91f6183e622eb3134833d\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\aba40c873d0c6b66be1e3f0b79a854c7\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\aba40c873d0c6b66be1e3f0b79a854c7\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\c41f3c801cd03801cd2a1dcf320abb81\jetified-exoplayer-extractor-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\c41f3c801cd03801cd2a1dcf320abb81\jetified-exoplayer-extractor-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b6c23148c1934165ee2b1876c799c11b\jetified-exoplayer-common-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b6c23148c1934165ee2b1876c799c11b\jetified-exoplayer-common-2.14.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\ca6a61d0e65624f35c5a49468c81fd10\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\ca6a61d0e65624f35c5a49468c81fd10\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\a028e4130fe4b9df9c7aeab2abeb2c55\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\a028e4130fe4b9df9c7aeab2abeb2c55\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\8de444c5e3399718efacccedb9730e3b\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\8de444c5e3399718efacccedb9730e3b\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\0b19828b326b56df03b22095c42db98c\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\0b19828b326b56df03b22095c42db98c\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\99f37cf21011147dc49ab72be223531d\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\99f37cf21011147dc49ab72be223531d\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\ef4d8d9d13157d751e1fa13f14ee6b28\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\ef4d8d9d13157d751e1fa13f14ee6b28\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\98bf932e31da9287e8479802fedbf854\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\98bf932e31da9287e8479802fedbf854\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\63eee6dae17f80a53a65e25cbfb6f20e\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\63eee6dae17f80a53a65e25cbfb6f20e\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\73dc86ab266ee1130b8de358823b2aff\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\73dc86ab266ee1130b8de358823b2aff\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Develop\flutter\WorkSapce\movie_alarm\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:flutter_audio_query] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_audio_query\intermediates\library_manifest\release\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from [:flutter_audio_query] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_audio_query\intermediates\library_manifest\release\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:system_shortcuts] D:\Develop\flutter\WorkSapce\movie_alarm\build\system_shortcuts\intermediates\library_manifest\release\AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from [:system_shortcuts] D:\Develop\flutter\WorkSapce\movie_alarm\build\system_shortcuts\intermediates\library_manifest\release\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [:system_shortcuts] D:\Develop\flutter\WorkSapce\movie_alarm\build\system_shortcuts\intermediates\library_manifest\release\AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from [:system_shortcuts] D:\Develop\flutter\WorkSapce\movie_alarm\build\system_shortcuts\intermediates\library_manifest\release\AndroidManifest.xml:8:22-73
+uses-permission#android.permission.BLUETOOTH
+ADDED from [:system_shortcuts] D:\Develop\flutter\WorkSapce\movie_alarm\build\system_shortcuts\intermediates\library_manifest\release\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from [:system_shortcuts] D:\Develop\flutter\WorkSapce\movie_alarm\build\system_shortcuts\intermediates\library_manifest\release\AndroidManifest.xml:9:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [:system_shortcuts] D:\Develop\flutter\WorkSapce\movie_alarm\build\system_shortcuts\intermediates\library_manifest\release\AndroidManifest.xml:10:5-74
+	android:name
+		ADDED from [:system_shortcuts] D:\Develop\flutter\WorkSapce\movie_alarm\build\system_shortcuts\intermediates\library_manifest\release\AndroidManifest.xml:10:22-71
+queries
+ADDED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:7:5-11:15
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:8:9-10:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:9:13-90
+	android:name
+		ADDED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:9:21-87
+activity#com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity
+ADDED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:14:9-17:47
+	android:configChanges
+		ADDED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:16:13-137
+	android:theme
+		ADDED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:17:13-44
+	android:name
+		ADDED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:15:13-104
+activity#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity
+ADDED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:18:9-20:55
+	android:theme
+		ADDED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:20:13-52
+	android:name
+		ADDED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:19:13-112
+receiver#com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver
+ADDED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:22:9-120
+	android:name
+		ADDED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:22:19-117
+meta-data#io.flutter.embedded_views_preview
+ADDED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:24:9-26:36
+	android:value
+		ADDED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:26:13-33
+	android:name
+		ADDED from [:flutter_inappwebview] D:\Develop\flutter\WorkSapce\movie_alarm\build\flutter_inappwebview\intermediates\library_manifest\release\AndroidManifest.xml:25:13-61
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\386f14f5a3f7a4633f3356c50f39f4ff\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b6c23148c1934165ee2b1876c799c11b\jetified-exoplayer-common-2.14.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\b6c23148c1934165ee2b1876c799c11b\jetified-exoplayer-common-2.14.1\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.14.1] C:\Users\rhaxo\.gradle\caches\transforms-2\files-2.1\386f14f5a3f7a4633f3356c50f39f4ff\jetified-exoplayer-core-2.14.1\AndroidManifest.xml:24:22-76
