@@ -23,17 +23,12 @@ class HomeScreen extends StatelessWidget {
     return DefaultContainer(
       child: Column(
         children: <Widget>[
-          Text(
-            'Your alarms',
-            style: TextStyle(fontSize: 28, color: Colors.white),
-          ),
           Flexible(
             child: Observer(
               builder: (context) => ListView.separated(
                 shrinkWrap: true,
                 itemBuilder: (context, index) {
                   final alarm = alarms.alarms[index];
-
                   return Dismissible(
                     key: Key(alarm.id.toString()),
                     child: AlarmItem(alarm: alarm, manager: _manager),

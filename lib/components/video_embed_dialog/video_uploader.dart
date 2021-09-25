@@ -12,7 +12,7 @@ class VideoUploader extends StatelessWidget {
     double height = screenSize.height;
 
     return Padding(
-      padding: EdgeInsets.only(top: height * 0.1),
+      padding: EdgeInsets.fromLTRB(0, height *0.05, 0, height *0.05),
       child: Container(
         child: TextButton(
           child: Text('동영상 임베드 또는 업로드'),

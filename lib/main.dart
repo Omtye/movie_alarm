@@ -5,6 +5,7 @@ import 'package:movie_alarm/Services/alarm_polling_worker.dart';
 import 'package:movie_alarm/Services/file_proxy.dart';
 import 'package:movie_alarm/Services/life_cycle_listener.dart';
 import 'package:movie_alarm/Services/media_handler.dart';
+import 'package:movie_alarm/constants.dart';
 import 'package:movie_alarm/model/alarm/alarm.dart';
 import 'package:movie_alarm/model/alarmstatus/status.dart';
 import 'package:movie_alarm/screen/alarm_screen/alarm_screen.dart';
@@ -44,9 +45,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-          primarySwatch: Colors.blue,
-          scaffoldBackgroundColor:
-              Color(0xFFe9ecef) //Color.fromRGBO(25, 12, 38, 1),
+          scaffoldBackgroundColor: kThemeColor //Color.fromRGBO(25, 12, 38, 1),
           ),
       home: Observer(
         builder: (context) {

@@ -13,12 +13,25 @@ class BottomAddButton extends StatelessWidget {
         alignment: Alignment.center,
         child: SizedBox.fromSize(
           size: Size.fromHeight(50),
-          child: IconButton(
-            onPressed: onPressed,
-            icon: Icon(
-              Icons.add_circle,
-              size: 50,
-              color: Colors.white,
+          child: Container(
+            decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black12,
+                    blurRadius: 30.0,
+                  ),
+                ]
+            ),
+            child: IconButton(
+              onPressed: onPressed,
+              padding: EdgeInsets.zero,
+              alignment: Alignment.center,
+              icon: Icon(
+                Icons.add_circle,
+                size: 50,
+                color: Colors.white,
+              ),
             ),
           ),
         ),

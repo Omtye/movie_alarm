@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movie_alarm/Services/alarm_list_manager.dart';
+import 'package:movie_alarm/constants.dart';
 import 'package:movie_alarm/model/observable/observable.dart';
 import 'package:movie_alarm/screen/edit_alarm/components/buttom_button.dart';
 import 'package:movie_alarm/screen/edit_alarm/components/edit_alarm_days.dart';
@@ -7,6 +8,7 @@ import 'package:movie_alarm/screen/edit_alarm/components/edit_alarm_embedded_vid
 import 'package:movie_alarm/screen/edit_alarm/components/edit_alarm_head.dart';
 import 'package:movie_alarm/screen/edit_alarm/components/edit_alarm_music.dart';
 import 'package:movie_alarm/screen/edit_alarm/components/edit_alarm_time.dart';
+import 'package:movie_alarm/screen/music_selection_screen/components/edit_alarm_slider.dart';
 
 class EditAlarm extends StatelessWidget {
   final ObservableAlarm alarm;
@@ -22,7 +24,7 @@ class EditAlarm extends StatelessWidget {
     return Scaffold(
       body: GestureDetector(
         onTap: () {
-          if(!currentFocus.hasPrimaryFocus){
+          if (!currentFocus.hasPrimaryFocus) {
             currentFocus.unfocus();
           }
         },
@@ -30,7 +32,6 @@ class EditAlarm extends StatelessWidget {
           child: Column(
             children: <Widget>[
               SizedBox(
-                height: size.height - (size.height / 15),
                 child: Stack(
                   children: <Widget>[
                     EditAlarmTime(alarm: this.alarm),
@@ -38,28 +39,29 @@ class EditAlarm extends StatelessWidget {
                       padding: EdgeInsets.fromLTRB(15, 0, 15, 0),
                       child: Container(
                         margin: EdgeInsets.only(top: size.height * 0.35),
-                        decoration: BoxDecoration(
+                        child: Material(
+                          borderRadius: BorderRadius.circular(15),
+                          elevation: 5.0,
                           color: Colors.white,
-                          borderRadius: BorderRadius.all(
-                            Radius.circular(15),
-                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.all(20),
+                              child: Column(
+                                children: <Widget>[
+                                  EditAlarmHead(alarm: this.alarm),
+                                  Divider(),
+                                  EditAlarmDays(alarm: this.alarm),
+                                  Divider(),
+                                  EditAlarmMusic(alarm: this.alarm),
+                                  Divider(),
+                                  EditAlarmEmbeddedVideo(alarm: this.alarm),
+                                  Divider(),
+                                  EditAlarmSlider(alarm: this.alarm)
+                                ],
+                              ),
+                            ),
                         ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(20),
-                          child: Column(
-                            children: <Widget>[
-                              EditAlarmHead(alarm: this.alarm),
-                              Divider(),
-                              EditAlarmDays(alarm: this.alarm),
-                              Divider(),
-                              EditAlarmMusic(alarm: this.alarm),
-                              Divider(),
-                              EditAlarmEmbeddedVideo(alarm: this.alarm),
-                            ],
-                          ),
                         ),
                       ),
-                    ),
                   ],
                 ),
               ),
@@ -73,5 +75,4 @@ class EditAlarm extends StatelessWidget {
       ),
     );
   }
-
 }

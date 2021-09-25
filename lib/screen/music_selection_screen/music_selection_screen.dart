@@ -1,3 +1,4 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_audio_query/flutter_audio_query.dart';
 import 'package:mobx/mobx.dart';
@@ -27,6 +28,8 @@ class MusicSelectionScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    AudioPlayer _currentPlayer = AudioPlayer();
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xFFe9ecef),
@@ -36,33 +39,26 @@ class MusicSelectionScreen extends StatelessWidget {
           style: TextStyle(color: Colors.black),
         ),
       ),
-      body: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: <Widget>[
-          MusicList(store: store),
-          EditAlarmSlider(alarm:alarm),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: <Widget>[
-              TextButton(
-                child: Text('Cancel'),
-                onPressed: () => Navigator.pop(context),
-              ),
-              TextButton(
-                child: Text('Done'),
-                onPressed: () {
-                  final newSelected = store.itemSelected.entries
-                      .where((entry) => entry.value)
-                      .map((entry) => entry.key);
+      body: WillPopScope(
+        onWillPop: () async {
+          final newSelected = store.itemSelected.entries
+              .where((entry) => entry.value)
+              .map((entry) => entry.key);
 
-                  alarm.musicIds = ObservableList.of(newSelected);
-                  alarm.loadTracks();
-                  return Navigator.pop(context);
-                },
-              )
-            ],
-          )
+          alarm.musicIds = ObservableList.of(newSelected);
+          await alarm.loadTracks();
+          _currentPlayer.stop();
+          _currentPlayer.release();
+
+          return true;
+
+        },
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: <Widget>[
+            MusicList(store: store, audioPlayer: _currentPlayer,),
         ],
+        ),
       ),
     );
   }

@@ -17,7 +17,6 @@ class EditAlarmEmbeddedVideo extends StatelessWidget {
 
     final onDone = () {
       currentFocus.unfocus();
-
       showDialog(
           context: context,
           builder: (context) => VideoEmbedDialog(alarm: this.alarm));
@@ -29,7 +28,7 @@ class EditAlarmEmbeddedVideo extends StatelessWidget {
             ? VideoUploader(
                 onDone: onDone,
               )
-            : VideoController(alarm: this.alarm),
+            : VideoController(alarm: this.alarm, isAlarmScreen: false,),
       ),
     );
   }

@@ -10,8 +10,8 @@ class VideoScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        child: VideoController(alarm: alarm),
+      body: Center(
+        child: VideoController(alarm: alarm, isAlarmScreen: true,),
       ),
     );
   }
