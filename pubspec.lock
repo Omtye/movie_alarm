@@ -133,7 +133,7 @@ packages:
       name: cli_util
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.3.3"
+    version: "0.3.4"
   clock:
     dependency: transitive
     description:
@@ -259,9 +259,11 @@ packages:
   flutter_time_picker_spinner:
     dependency: "direct main"
     description:
-      name: flutter_time_picker_spinner
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "."
+      ref: master
+      resolved-ref: "79ef854a65ce1f0ef488898aafc9ec328e038cb2"
+      url: "https://github.com/Omtye/flutter_time_picker_spinner.git"
+    source: git
     version: "2.0.0"
   flutter_web_plugins:
     dependency: transitive

@@ -62,27 +62,32 @@ class _VideoControllerState extends State<VideoController> {
         return false;
 
       },
-      child: Padding(
-        padding: EdgeInsets.all(size.height * 0.02),
-        child: Container(
-          child: YoutubePlayer(
-            controller: _controller,
-            showVideoProgressIndicator: true,
-            bottomActions: <Widget>[
-              // const SizedBox(width: 14.0),
-              CurrentPosition(),
-              // const SizedBox(width: 8.0),
-              ProgressBar(isExpanded: true),
-              RemainingDuration(),
-              FullScreenButton(),
-            ],
-            aspectRatio: 4 / 3,
-            progressIndicatorColor: Colors.white,
-            onReady: () {
-              print('Player is ready.');
-            },
+      child: GestureDetector(
+        child: Padding(
+          padding: EdgeInsets.all(size.height * 0.02),
+          child: Container(
+            child: YoutubePlayer(
+              controller: _controller,
+              showVideoProgressIndicator: true,
+              bottomActions: <Widget>[
+                // const SizedBox(width: 14.0),
+                CurrentPosition(),
+                // const SizedBox(width: 8.0),
+                ProgressBar(isExpanded: true),
+                RemainingDuration(),
+                FullScreenButton(),
+              ],
+              aspectRatio: 4 / 3,
+              progressIndicatorColor: Colors.white,
+              onReady: () {
+                print('Player is ready.');
+              },
+            ),
           ),
         ),
+        onLongPress: (){
+
+        },
       ),
     );
   }

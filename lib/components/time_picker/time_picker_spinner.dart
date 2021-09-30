@@ -22,7 +22,6 @@ class ItemScrollPhysics extends ScrollPhysics {
   }
 
   double _getItem(ScrollPosition position) {
-
     double maxScrollItem =
         (position.maxScrollExtent / itemHeight!).floorToDouble();
 
@@ -58,7 +57,6 @@ class ItemScrollPhysics extends ScrollPhysics {
     Tolerance tolerance = this.tolerance;
     final double target =
         _getTargetPixels(position as ScrollPosition, tolerance, velocity);
-
 
     if (target != position.pixels)
       return ScrollSpringSimulation(spring, position.pixels, target, velocity,
@@ -234,6 +232,7 @@ class _TimePickerSpinnerState extends State<TimePickerSpinner> {
   @override
   Widget build(BuildContext context) {
     // print(minuteController.offset);
+
     List<Widget> contents = [
       SizedBox(
         width: _getItemWidth(),
@@ -251,7 +250,7 @@ class _TimePickerSpinnerState extends State<TimePickerSpinner> {
           () => isHourScrolling = false,
         ),
       ),
-      spacer(),
+      spacerBetweenDigit(),
       SizedBox(
         width: _getItemWidth(),
         height: _getItemHeight()! * 3,
@@ -269,6 +268,18 @@ class _TimePickerSpinnerState extends State<TimePickerSpinner> {
         ),
       ),
     ];
+
+    if (!widget.is24HourMode) {
+      contents.insert(
+        0,
+        SizedBox(
+          width: _getItemWidth()! * 1.2,
+          height: _getItemHeight()! * 3,
+          child: apSpinner(),
+        ),
+      );
+      contents.insert(1, spacer());
+    }
 
     if (widget.isShowSeconds) {
       contents.add(spacer());
@@ -290,17 +301,6 @@ class _TimePickerSpinnerState extends State<TimePickerSpinner> {
       ));
     }
 
-    if (!widget.is24HourMode) {
-      contents.add(spacer());
-      contents.add(
-        SizedBox(
-          width: _getItemWidth()! * 1.2,
-          height: _getItemHeight()! * 3,
-          child: apSpinner(),
-        ),
-      );
-    }
-
     return Row(
       crossAxisAlignment: CrossAxisAlignment.center,
       mainAxisAlignment: MainAxisAlignment.center,
@@ -312,6 +312,19 @@ class _TimePickerSpinnerState extends State<TimePickerSpinner> {
     return Container(
       width: _getSpacing(),
       height: _getItemHeight()! * 3,
+    );
+  }
+
+  Widget spacerBetweenDigit() {
+    return Container(
+      width: _getSpacing(),
+      height: _getItemHeight()! * 3,
+      child: Center(
+        child: Text(
+          ":",
+          style: _getHighlightedTextStyle(),
+        ),
+      ),
     );
   }
 
@@ -373,7 +386,9 @@ class _TimePickerSpinnerState extends State<TimePickerSpinner> {
               text == '0') {
             text = '12';
           }
-          if (widget.isForce2Digits && text != '') {
+          if (widget.isForce2Digits &&
+              text != '' &&
+              controller == minuteController) {
             text = text.padLeft(2, '0');
           }
           return Container(
@@ -429,15 +444,15 @@ class _TimePickerSpinnerState extends State<TimePickerSpinner> {
       },
       child: ListView.builder(
         itemBuilder: (context, index) {
-          String text = index == 1 ? 'AM' : (index == 2 ? 'PM' : '');
+          String text = index == 1 ? '오전' : (index == 2 ? '오후' : '');
           return Container(
             height: _getItemHeight(),
             alignment: Alignment.center,
             child: Text(
               text,
               style: currentSelectedAPIndex == index
-                  ? _getHighlightedTextStyle()
-                  : _getNormalTextStyle(),
+                  ? _getHighlightedTextStyle()!.apply(fontSizeFactor: 0.7)
+                  : _getNormalTextStyle()!.apply(fontSizeFactor: 0.7),
             ),
           );
         },

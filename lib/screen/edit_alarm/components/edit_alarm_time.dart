@@ -25,14 +25,17 @@ class EditAlarmTime extends StatelessWidget {
             children: <Widget>[
               TimePickerSpinner(
                 time: DateTime(2021, 8, 25, hours, minutes),
+                alignment: Alignment.center,
                 is24HourMode: false,
-                spacing: width * 0.2,
+                spacing: width * 0.1,
+                itemWidth: width * 0.2,
+                isForce2Digits: true,
                 normalTextStyle: TextStyle(
                   color: Colors.grey,
-                  fontSize: 35,
+                  fontSize: 40,
                 ),
                 highlightedTextStyle:
-                    TextStyle(color: Colors.black, fontSize: 35),
+                    TextStyle(color: Colors.black, fontSize: 40,),
                 onTimeChange: (time) {
                   alarm.hour = time.hour;
                   alarm.minute = time.minute;
