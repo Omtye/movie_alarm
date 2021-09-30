@@ -38,7 +38,10 @@ void main() async {
   Volume.controlVolume(AudioManager.STREAM_MUSIC);
 }
 
+
 class MyApp extends StatelessWidget {
+
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -50,8 +53,11 @@ class MyApp extends StatelessWidget {
       home: Observer(
         builder: (context) {
           AlarmStatus status = AlarmStatus();
+
           if (status.isAlarm) {
             final id = status.alarmId;
+            list.alarms.forEach((element) {print(element.id);});
+            print(list.alarms.firstWhere((alarm) => alarm.id == id));
             final alarm = list.alarms.firstWhere((alarm) => alarm.id == id);
 
             MediaHandler mediaHandler = MediaHandler();
